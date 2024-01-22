@@ -1,0 +1,76 @@
+CCDC 2023 Write-up
+Date: 02-08-2023
+By: Ikechukwu Igboemeka (me)
+
+
+**********************************************************************
+Roster:
+Micheal O'Leary (Coach)
+Igboemeka, Ikechukwu (Tobe) (Captain)
+Anthony, Alexander
+Halsey, Julian
+Kimmel, Josh
+Lameth, Jared
+Murphy, Tyler
+Ostrow, Daniel
+Poag, Collin
+Straughn (Jr.), Reginald
+Suril Waghmare
+
+Jumpboxes present:
+-No firewall (sadge)
+-Red Hat 8			apps
+-Windows Server 2016		core
+-Windows Server 2012 R2		files
+-Amazon Linux 2			virtual
+-Windows Server 2019		data
+-Fedora 34			logs
+-Ubuntu 18.04			saas
+
+Good:
++kept almost all services online till around last hour
+--ssh was down due to forgetting to update passwords on scorebot
++team utilized resources prepared during competitions
+--books and commands to use (print outs, written down etc)
++had a prepared password list to rotate
+--saved time swapping out passwords when red teamers got into system
++had food during the competition (thanks O'Leary!)
++team helped each other solve issues cross-jumpbox
+
+Notable:
++4:10pm (ඞ) [please laugh]
+--Red-teamer warned a teammate their system would go down at 4:10pm
++forgot to update jumpbox passwords on scorebot website after changing
+--lost points
++critical systems going down brought down other systems
+--time spent getting systems back online
++jump box bugs left a couple systems broken
+--some teammates couldn't get into their boxes but did help others
++red-team messed up our website in final hour
+--couldn't figure out how they did it
++capitol qualified, we did not
+
+Look out for:
++prioritize defending core systems to avoid network going down
++deleting additional users is less important than keeping up services
++act based on what prevents score loss
++backdoors or beacons red-team will use to get into systems easily
+--make their jobs hard in down-time
+---red team they don't know how they are found
+---red team doesn't know how we respond after we kick them out
++red-team messing up our website
++abusible ports than can be blocked
++common OS services red-team can use
+
+
+
+Summery:
++prioritize keeping up core systems
++help other teammates when unsure how to defend your system
++don't blue-team on an empty stomach (important!)
++use prepared written and printed resources during competition
++practice website defense (red hat 8)
++know what ports red-team can connect through easily
++know common OS services red-team can use
++make red-team's life difficult
++beat capitol
